@@ -5,11 +5,11 @@ ARG VCS_REF
 ARG VERSION
 
 LABEL \
-    org.opencontainers.image.vendor="The Goofball - goofball222@gmail.com" \
-    org.opencontainers.image.url="https://github.com/goofball222/pritunl" \
+    org.opencontainers.image.vendor="Grupo Mytec" \
+    org.opencontainers.image.url="https://github.com/grupomytec/pritunl" \
     org.opencontainers.image.title="Pritunl Server" \
     org.opencontainers.image.version=$VERSION \
-    org.opencontainers.image.source="https://github.com/goofball222/pritunl.git" \
+    org.opencontainers.image.source="https://github.com/grupomytec/pritunl.git" \
     org.opencontainers.image.revision=$VCS_REF \
     org.opencontainers.image.created=$BUILD_DATE \
     org.opencontainers.image.licenses="Apache-2.0"

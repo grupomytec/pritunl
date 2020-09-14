@@ -3,7 +3,7 @@
 
 
 
-NS ?= goofball222
+NS ?= grupomytec
 
 IMAGE_NAME ?= pritunl
 CONTAINER_NAME ?= pritunl

@@ -1,16 +1,16 @@
 # Pritunl Docker Container
 
-[![Docker Build Status](https://img.shields.io/docker/cloud/build/goofball222/pritunl.svg)](https://hub.docker.com/r/goofball222/pritunl/) [![Docker Pulls](https://img.shields.io/docker/pulls/goofball222/pritunl.svg)](https://hub.docker.com/r/goofball222/pritunl/) [![Docker Stars](https://img.shields.io/docker/stars/goofball222/pritunl.svg)](https://hub.docker.com/r/goofball222/pritunl/) [![MB Layers](https://images.microbadger.com/badges/image/goofball222/pritunl.svg)](https://microbadger.com/images/goofball222/pritunl) [![MB Commit](https://images.microbadger.com/badges/commit/goofball222/pritunl.svg)](https://microbadger.com/images/goofball222/pritunl) [![MB License](https://images.microbadger.com/badges/license/goofball222/pritunl.svg)](https://microbadger.com/images/goofball222/pritunl)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/grupomytec/pritunl.svg)](https://hub.docker.com/r/grupomytec/pritunl/) [![Docker Pulls](https://img.shields.io/docker/pulls/grupomytec/pritunl.svg)](https://hub.docker.com/r/grupomytec/pritunl/) [![Docker Stars](https://img.shields.io/docker/stars/grupomytec/pritunl.svg)](https://hub.docker.com/r/grupomytec/pritunl/) [![MB Layers](https://images.microbadger.com/badges/image/grupomytec/pritunl.svg)](https://microbadger.com/images/grupomytec/pritunl) [![MB Commit](https://images.microbadger.com/badges/commit/grupomytec/pritunl.svg)](https://microbadger.com/images/grupomytec/pritunl) [![MB License](https://images.microbadger.com/badges/license/grupomytec/pritunl.svg)](https://microbadger.com/images/grupomytec/pritunl)
 
 ## Docker tags:
 | Tag | pritunl Version | Description | Release Date |
 | --- | :---: | --- | :---: |
-| [latest](https://github.com/goofball222/pritunl/blob/master/stable/Dockerfile) | v1.29.2547.95 | Latest stable release | 2020-09-03 |
+| [latest](https://github.com/grupomytec/pritunl/blob/master/stable/Dockerfile) | v1.29.2547.95 | Latest stable release | 2020-09-03 |
 
 ---
 
-* [Recent changes, see: GitHub CHANGELOG.md](https://github.com/goofball222/pritunl/blob/master/CHANGELOG.md)
-* [Report any bugs, issues or feature requests on GitHub](https://github.com/goofball222/pritunl/issues)
+* [Recent changes, see: GitHub CHANGELOG.md](https://github.com/grupomytec/pritunl/blob/master/CHANGELOG.md)
+* [Report any bugs, issues or feature requests on GitHub](https://github.com/grupomytec/pritunl/issues)
 
 ---
 
@@ -81,7 +81,7 @@ services:
       - ./db:/data/db
 
   pritunl:
-    image: goofball222/pritunl:latest
+    image: grupomytec/pritunl:latest
     container_name: pritunl
     hostname: pritunl
     depends_on:
@@ -107,7 +107,7 @@ services:
 
 ---
 
-**Other/extended docker-compose.yml examples see: https://github.com/goofball222/pritunl/tree/master/examples**
+**Other/extended docker-compose.yml examples see: https://github.com/grupomytec/pritunl/tree/master/examples**
 
 ---
 
@@ -122,4 +122,4 @@ services:
 | `WIREGUARD` | ***false*** | Set to *true*, Switches web interface back to port 443 and HTTPS if running wireguard with reverse-proxy (Traefik/nginx) |
 
 [//]: # (Licensed under the Apache 2.0 license)
-[//]: # (Copyright 2018 The Goofball - goofball222@gmail.com)
+[//]: # (Copyright 2020 Grupo Mytec)
